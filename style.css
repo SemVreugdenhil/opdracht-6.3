@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo, .login {
+    width: 25%;
+    text-align: center;
+    font-size: 28px;
+    color: blue;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 28px;
+    color: blue;
+}
